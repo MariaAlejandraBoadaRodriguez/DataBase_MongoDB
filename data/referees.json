@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "672ea6418c6837b71afd3034"
+  },
+  "name": "Mark Clattenburg",
+  "experience": {
+    "years": 15,
+    "league": "Premier League"
+  },
+  "matches": [
+    "match001",
+    "match002",
+    "match003"
+  ],
+  "ratings": [
+    {
+      "match_id": "match001",
+      "performance": 9.5
+    },
+    {
+      "match_id": "match002",
+      "performance": 8
+    }
+  ]
+},
+{
+  "_id": "referee002",
+  "name": "Bjorn Kuipers",
+  "experience": {
+    "years": 12,
+    "matches_officiated": 300
+  },
+  "matches": [
+    "match002",
+    "match003"
+  ],
+  "ratings": [
+    9,
+    8
+  ]
+},
+{
+  "_id": "referee003",
+  "name": "Stephanie Frappart",
+  "experience": {
+    "years": 8,
+    "matches_officiated": 200
+  },
+  "matches": [
+    "match004",
+    "match005"
+  ],
+  "ratings": [
+    10,
+    9
+  ]
+}]

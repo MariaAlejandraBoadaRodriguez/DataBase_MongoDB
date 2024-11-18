@@ -1,0 +1,32 @@
+[{
+  "_id": "team123",
+  "name": "Manchester City",
+  "coach_id": "coach001",
+  "players": [
+    "player001",
+    "player002",
+    "player003"
+  ],
+  "matches_played": 28,
+  "wins": 20,
+  "losses": 3,
+  "draws": 5,
+  "points": 65,
+  "goal_difference": 45
+},
+{
+  "_id": "team456",
+  "name": "Real Madrid",
+  "coach_id": "coach002",
+  "players": [
+    "player004",
+    "player005",
+    "player006"
+  ],
+  "matches_played": 30,
+  "wins": 25,
+  "losses": 3,
+  "draws": 2,
+  "points": 77,
+  "goal_difference": 50
+}]

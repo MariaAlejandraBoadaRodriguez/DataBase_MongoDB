@@ -1,0 +1,42 @@
+[{
+  "_id": "match001",
+  "date": "2024-03-10T15:00:00",
+  "teams": {
+    "home_team_id": "team123",
+    "away_team_id": "team456"
+  },
+  "referee_id": "referee001",
+  "location": "Estadio Santiago Bernabéu",
+  "score": {
+    "home": 2,
+    "away": 1
+  }
+},
+{
+  "_id": "match002",
+  "date": "2024-04-15T20:00:00",
+  "teams": {
+    "home_team": "team123",
+    "away_team": "team124"
+  },
+  "referee_id": "referee002",
+  "location": "Etihad Stadium",
+  "score": {
+    "home_team": 3,
+    "away_team": 1
+  }
+},
+{
+  "_id": "match003",
+  "date": "2024-05-10T20:00:00",
+  "teams": {
+    "home_team": "team125",
+    "away_team": "team124"
+  },
+  "referee_id": "referee001",
+  "location": "San Siro",
+  "score": {
+    "home_team": 2,
+    "away_team": 2
+  }
+}]

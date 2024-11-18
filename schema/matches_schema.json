@@ -1,0 +1,50 @@
+{
+    "bsonType": "object",
+    "required": ["_id", "date", "teams", "referee_id", "location", "score"],
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "description": "Identificador único del partido"
+      },
+      "date": {
+        "bsonType": "string",
+        "description": "Fecha y hora del partido"
+      },
+      "teams": {
+        "bsonType": "object",
+        "required": ["home_team_id", "away_team_id"],
+        "properties": {
+          "home_team_id": {
+            "bsonType": "string",
+            "description": "ID del equipo local"
+          },
+          "away_team_id": {
+            "bsonType": "string",
+            "description": "ID del equipo visitante"
+          }
+        }
+      },
+      "referee_id": {
+        "bsonType": "string",
+        "description": "ID del árbitro asignado al partido"
+      },
+      "location": {
+        "bsonType": "string",
+        "description": "Lugar donde se juega el partido"
+      },
+      "score": {
+        "bsonType": "object",
+        "properties": {
+          "home": {
+            "bsonType": "int",
+            "description": "Goles anotados por el equipo local"
+          },
+          "away": {
+            "bsonType": "int",
+            "description": "Goles anotados por el equipo visitante"
+          }
+        }
+      }
+    }
+}
+  

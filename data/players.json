@@ -1,0 +1,42 @@
+[{
+  "_id": "player001",
+  "name": "Lionel Messi",
+  "team_id": "team123",
+  "position": "delantero",
+  "stats": {
+    "goals": 30,
+    "assists": 10,
+    "yellow_cards": 2,
+    "red_cards": 0
+  },
+  "date_of_birth": "1987-06-24",
+  "nationality": "Argentina"
+},
+{
+  "_id": "player002",
+  "name": "Cristiano Ronaldo",
+  "team_id": "team123",
+  "position": "delantero",
+  "stats": {
+    "goals": 24,
+    "assists": 8,
+    "yellow_cards": 3,
+    "red_cards": 0
+  },
+  "date_of_birth": "1985-02-05",
+  "nationality": "Portugal"
+},
+{
+  "_id": "player003",
+  "name": "Kevin De Bruyne",
+  "team_id": "team123",
+  "position": "mediocampista",
+  "stats": {
+    "goals": 8,
+    "assists": 15,
+    "yellow_cards": 1,
+    "red_cards": 0
+  },
+  "date_of_birth": "1991-06-28",
+  "nationality": "Belgium"
+}]

@@ -1,0 +1,43 @@
+{
+    "bsonType": "object",
+    "required": ["_id", "name", "team_id", "experience", "strategies"],
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "description": "Identificador único del entrenador"
+      },
+      "name": {
+        "bsonType": "string",
+        "description": "Nombre completo del entrenador"
+      },
+      "team_id": {
+        "bsonType": "string",
+        "description": "ID del equipo que dirige el entrenador"
+      },
+      "experience": {
+        "bsonType": "object",
+        "required": ["years"],
+        "properties": {
+          "years": {
+            "bsonType": "int",
+            "description": "Años de experiencia del entrenador"
+          },
+          "teams_managed": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            },
+            "description": "Lista de equipos que ha dirigido"
+          }
+        }
+      },
+      "strategies": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Estrategias principales del entrenador"
+      }
+  }
+}
+  

@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "672ea6278c6837b71afd3031"
+  },
+  "name": "Pep Guardiola",
+  "team_id": "team123",
+  "experience": {
+    "years": 20,
+    "achievements": [
+      "Champions League",
+      "Premier League",
+      "La Liga"
+    ]
+  },
+  "strategies": [
+    "Posesión",
+    "Ataque total",
+    "Presión alta"
+  ]
+},
+{
+  "_id": "coach002",
+  "name": "Jurgen Klopp",
+  "team_id": "team124",
+  "experience": {
+    "years": 10,
+    "teams_managed": [
+      "Borussia Dortmund",
+      "Liverpool"
+    ]
+  },
+  "strategies": [
+    "gegenpressing",
+    "4-3-3 formation",
+    "counterattack"
+  ]
+},
+{
+  "_id": "coach003",
+  "name": "Carlo Ancelotti",
+  "team_id": "team125",
+  "experience": {
+    "years": 15,
+    "teams_managed": [
+      "Real Madrid",
+      "Chelsea",
+      "PSG"
+    ]
+  },
+  "strategies": [
+    "4-4-2 formation",
+    "balanced play",
+    "possession-based"
+  ]
+}]

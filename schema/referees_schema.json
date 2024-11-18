@@ -1,0 +1,43 @@
+{
+    "bsonType": "object",
+    "required": ["_id", "name", "experience", "matches", "ratings"],
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "description": "Identificador único del árbitro"
+      },
+      "name": {
+        "bsonType": "string",
+        "description": "Nombre completo del árbitro"
+      },
+      "experience": {
+        "bsonType": "object",
+        "required": ["years"],
+        "properties": {
+          "years": {
+            "bsonType": "int",
+            "description": "Años de experiencia del árbitro"
+          },
+          "matches_officiated": {
+            "bsonType": "int",
+            "description": "Cantidad de partidos arbitrados"
+          }
+        }
+      },
+      "matches": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lista de IDs de partidos arbitrados"
+      },
+      "ratings": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "double"
+        },
+        "description": "Calificaciones del desempeño del árbitro"
+      }
+    }
+}
+  

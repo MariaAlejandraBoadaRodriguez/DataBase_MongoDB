@@ -1,0 +1,52 @@
+{
+  "bsonType": "object",
+  "required": ["_id", "name", "team_id", "position", "stats", "date_of_birth", "nationality"],
+  "properties": {
+    "_id": {
+      "bsonType": "string",
+      "description": "Identificador único del jugador"
+    },
+    "name": {
+      "bsonType": "string",
+      "description": "Nombre completo del jugador"
+    },
+    "team_id": {
+      "bsonType": "string",
+      "description": "ID del equipo al que pertenece el jugador"
+    },
+    "position": {
+      "bsonType": "string",
+      "description": "Posición del jugador en el campo"
+    },
+    "stats": {
+      "bsonType": "object",
+      "required": ["goals", "assists", "yellow_cards", "red_cards"],
+      "properties": {
+        "goals": {
+          "bsonType": "int",
+          "description": "Cantidad de goles anotados"
+        },
+        "assists": {
+          "bsonType": "int",
+          "description": "Cantidad de asistencias realizadas"
+        },
+        "yellow_cards": {
+          "bsonType": "int",
+          "description": "Cantidad de tarjetas amarillas"
+        },
+        "red_cards": {
+          "bsonType": "int",
+          "description": "Cantidad de tarjetas rojas"
+        }
+      }
+    },
+    "date_of_birth": {
+      "bsonType": "string",
+      "description": "Fecha de nacimiento del jugador"
+    },
+    "nationality": {
+      "bsonType": "string",
+      "description": "Nacionalidad del jugador"
+    }
+  }
+}

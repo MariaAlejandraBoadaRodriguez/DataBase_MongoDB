@@ -1,0 +1,50 @@
+{
+    "bsonType": "object",
+    "required": ["_id", "name", "coach_id", "players", "matches_played", "wins", "losses", "draws", "points", "goal_difference"],
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "description": "Identificador único del equipo"
+      },
+      "name": {
+        "bsonType": "string",
+        "description": "Nombre del equipo"
+      },
+      "coach_id": {
+        "bsonType": "string",
+        "description": "ID del entrenador asignado al equipo"
+      },
+      "players": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "string"
+        },
+        "description": "Lista de IDs de jugadores que pertenecen al equipo"
+      },
+      "matches_played": {
+        "bsonType": "int",
+        "description": "Número total de partidos jugados"
+      },
+      "wins": {
+        "bsonType": "int",
+        "description": "Número de partidos ganados"
+      },
+      "losses": {
+        "bsonType": "int",
+        "description": "Número de partidos perdidos"
+      },
+      "draws": {
+        "bsonType": "int",
+        "description": "Número de partidos empatados"
+      },
+      "points": {
+        "bsonType": "int",
+        "description": "Puntos acumulados en la tabla de posiciones"
+      },
+      "goal_difference": {
+        "bsonType": "int",
+        "description": "Diferencia de goles a favor y en contra"
+      }
+    }
+}
+  
