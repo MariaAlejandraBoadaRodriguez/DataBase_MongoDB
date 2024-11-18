@@ -32,7 +32,11 @@ Este repositorio contiene el diseño y los datos de una base de datos MongoDB pa
 - const team = db.teams.findOne({ "_id": "team123" });
 - db.coaches.findOne({ "_id": team.coach_id });
 
-##  Contribuciones
+## Videos
+
+https://youtu.be/nOgsjCpI5Ug?si=Htr5ZdY6rQ7ZbUUR
+
+## Contribuciones
 
 Este proyecto fue desarrollado como parte del curso Bases de Datos Avanzadas. Fue diseñado para practicar y aplicar conceptos de bases de datos NoSQL con MongoDB.
 
